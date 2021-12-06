@@ -12,8 +12,8 @@ body{
 
     display: grid;
 
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 1fr 1fr 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 1fr 100px;
 
     gap: 10px;
 
@@ -23,7 +23,7 @@ body{
 
 .header{
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     text-align: center;
 }
 
