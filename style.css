@@ -38,6 +38,7 @@ body{
     grid-column-start: 1;
     grid-column-end: 5;
     text-align: center;
+    
 }
 
 .footer{
@@ -49,11 +50,15 @@ body{
     grid-column-end: 4;
     grid-row-start: 3;
 }
-
+.content-small-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .container div{
     text-align: center;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid lightgray;
 }
 
